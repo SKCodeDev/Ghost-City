@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+}
+
+label
+{
+    position: absolute; 
+    top: 90px; 
+    left: 440px; 
+    font-weight: bold; 
+    display: inline-block; 
+    display: flex;
+}
+
+#idScore
+{
+    display: inline-block; 
+    font-size: large;
+}
+
+#idDif
+{
+    position: absolute; 
+    display: inline-block; 
+    top: 90px; 
+    left: 580px; 
+    display: flex;
+}
+
+.difSel
+{
+    width: 55px;
+}
+
+.borderSel
+{
+    width: 55px;
+}
+
+button 
+{
+    border: none;
+    border-radius: 3px;
+    width: 45px;
+    height: 20px;
+    display: block;
+    background: linear-gradient(to right, blue, rgb(101, 49, 255) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 500ms ease-out;
+}
+
+button::before
+{
+    background: linear-gradient(to right, blue, purple);
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    background-color: white;
+}
+  
+button:hover 
+{
+    background-position: left bottom;
+    color: white;
+    cursor: pointer;
+  }
+
+#gameCanvas {
+    border: 1px solid #FFF;
+    background-color: #000;
+}
