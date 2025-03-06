@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Ghost City</title>
+</head>
+<body style="background: linear-gradient(to right, rgb(131, 131, 255), rgb(0, 0, 206));" onload="setInterval(changeS, 30000)">
+
+<!--
+    #5353fe
+-->
+
+<div class="centerLogo">
+    <div><img src="ghost-city.png" class="logo" onclick="info()" id="idLogo"></div>
+</div>
+
+
+    
+<div class="leftBorder">
+
+    <a href="" class="link" onclick="server()" id="idDiscord">Discord Server</a>
+    <a href="" class="link" id="idAbsorbit" onclick="absorbIt(event)">Absorb It</a>
+    <a href="Ghost Snake.html" class="link">Ghost Snake</a>
+    <a href="Tic Tac Ghost.html" class="link">Tic Tac Ghost</a>
+    <div class="link"><div id="idLang">Sprache: &nbsp;</div>
+        <select onchange="language()">
+            <option selected="selected" id="idDeutsch">Deutsch</option>
+            <option id="idEnglish">English</option>
+            <option id="idFrench">Français</option>
+        </select>
+    </div>
+    <a class="link" id="idMode">Darkmode</a>
+    <a class="link" id="idSprachAss" onclick="sprachAss()">Google Sprachassistent</a>
+    <div id="idSprachAusgabe"></div>
+
+</div>
+
+<div class="rightBorder" id="rBorder">
+    <div class="rez" id="idRez">
+        <img src="User.png" id="img"><span>&nbsp;&starf;&starf;&starf;&starf;&starf;</span>
+    </div>
+
+    <div class="rez" id="idRez2">
+        <img src="User.png" id="img2"><span>&nbsp;&starf;&starf;&starf;&starf;&starf;</span>
+    </div>
+
+    <div class="rez" id="idRez3">
+        <img src="User.png" id="img3"><span>&nbsp;&starf;&starf;&starf;&starf;&starf;</span>
+    </div>
+
+    <div class="rez" id="idRez4">
+        <img src="User.png" id="img4"><span>&nbsp;&starf;&starf;&starf;&starf;&starf;</span>
+    </div>
+
+    <div class="rez" id="idRez5">
+        <img src="User.png" id="img5"><span>&nbsp;&starf;&starf;&starf;&starf;&starf;</span>
+    </div>
+
+    <div class="rez" id="idRez6">
+        <img src="User.png" id="img6"><span>&nbsp;&starf;&starf;&starf;&starf;&starf;</span>
+    </div>
+
+    <div class="rez" id="idRez7">
+        <img src="User.png" id="img7"><span>&nbsp;&starf;&starf;&starf;&starf;&starf;</span>
+    </div>
+
+    <div class="rez" id="idRez8">
+        <img src="User.png" id="img8"><span>&nbsp;&starf;&starf;&starf;&starf;&starf;</span>
+    </div>
+    
+    <div class="rez" id="idRez9">
+        <img src="User.png" id="img9"><span>&nbsp;&starf;&starf;&starf;&starf;&starf;</span>
+    </div>
+
+    <div class="rez" id="idRez10">
+        &nbsp;<div style="color: white; font-size: 25px;" id="idRate">Bew:</div>
+        &nbsp;<div class="starsRate" onclick="stars(1)" id="idStar">&starf;</div>
+        <div class="starsRate" onclick="stars(2)" id="idStar1">&starf;</div>
+        <div class="starsRate" onclick="stars(3)" id="idStar2">&starf;</div>
+        <div class="starsRate" onclick="stars(4)" id="idStar3">&starf;</div>
+        <div class="starsRate" onclick="stars(5)" id="idStar4">&starf;</div>
+    </div>
+
+    <div class="sendRez" id="idBtn">
+        <button onclick="send()" id="btn" class="btn">Absenden</button>
+    </div>    
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
