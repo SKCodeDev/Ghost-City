@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost Snake</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <label>Score:&nbsp;
+        <div id="idScore">0</div></label>
+    <canvas id="gameCanvas"></canvas>
+    <div id="idDif">
+        <div style="display: inline-block;">&nbsp;Schwierigkeit:&nbsp;</div>
+        <select class="difSel">
+            <option id="idEasy">Leicht</option>
+            <option id="idMid" selected="selected">Mittel</option>
+            <option id="idHard" >Schwer</option>
+        </select>
+        &nbsp;
+        <select class="borderSel">
+            <option selected="selected" id="idRand">Rand</option>
+            <option>Kein Rand</option>
+        </select>
+        <button onclick="main(); setInterval(scoreCounter, 1000)">Start</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
