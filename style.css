@@ -1,0 +1,222 @@
+img
+        {
+            width: 20%;
+            height: auto;
+            border-radius: 50%;
+            margin-left: 1%;
+        }
+
+        .rez
+        {
+            display: flex;
+            height: 8.5%;
+            width: 210px;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 10%;
+            margin-top: 1%;
+            margin-left: 1%;
+        }
+
+        .newRez
+        {
+            display: flex;
+            height: 8.5%;
+            width: 210px;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 10%;
+            margin-top: 1%;
+            margin-left: 1%;
+        }
+
+        .sendRez
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 8.5%;
+            width: 100%;
+            border: 1px solid black;
+            border-radius: 10%;
+            margin-top: 1%;
+            margin-left: 1%;
+        }
+
+        span
+        {
+            color: gold;
+            font-size: 180%;
+        }
+
+        .rightBorder
+        {
+            position: absolute;
+            right: 0.3%;
+            border-left: 2px solid white;
+            border-radius: 3%;
+            box-shadow: 0 20px 15px -2px black;
+            height: 98%;
+        }
+
+        .leftBorder
+        {
+            position: absolute;
+            justify-content: center;
+            left: 0.3%;
+            border-right: 2px solid black;
+            border-radius: 3%;
+            box-shadow: 0 20px 15px -2px black;
+            height: 98%;
+            width: 17.1875%;
+        }
+
+        .link
+        {
+            display: flex;
+            text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blue;
+            border-radius: 10px;
+            margin-top: 10%;
+            height: 5%;
+            width: 98%;
+            transition-duration: 250ms;
+        }
+
+        .link:hover
+        {
+            background-color: rgb(100, 100, 255);
+            cursor: pointer;
+        }
+
+        select
+        {
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            font-size: 90%;
+            border: 0;
+        }
+
+        select:hover
+        {
+            background-color: rgb(100, 100, 255);
+        }
+
+        option
+        {
+            font-size: 100%;
+            font-weight: bold;
+        }
+
+        .centerLogo
+        {
+            position: absolute;
+            left: 30%;
+            top: 15%;
+        }
+
+        .logo
+        {
+            width: 190%;
+            height: auto;
+            box-shadow: 0 0 15px #0040a0;
+            margin-left: -5%;
+            filter: contrast(150%) brightness(110%);
+            object-fit: cover;
+            transition-duration: 500ms;
+            transition-timing-function: ease-in-out;
+        }
+
+        .logo:hover
+        {
+            box-shadow: 0 20px 15px -2px #227bff;
+            cursor: pointer;
+            width: 200%;
+            height: 200%;
+        }
+
+        .btn
+        {
+            display: inline-block;
+            background: linear-gradient(to right, rgb(17, 17, 213), rgb(4, 4, 207));
+            color: white;
+            font-weight: bold;
+            font-size: 130%;
+            border: 0;
+            white-space: nowrap;
+            transition: letter-spacing 500ms ease-out;
+        }
+
+        .btn:hover
+        {
+            cursor: pointer;
+            letter-spacing: 3px;
+        }
+
+        .starsRate
+        {
+            font-size: 180%;
+            color: gold;
+            transition: font-size 150ms ease-out;
+        }
+
+        .starsRate:hover
+        {
+            cursor: pointer;
+            font-size: 225%;
+        }
+
+        .newStars
+        {
+            font-size: 180%;
+            color: gold;
+        }
+
+        .close
+        {
+            width: 40px;
+            height: 35px;
+            position: absolute;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            transition-duration: 100ms;
+        }
+
+        .close:hover
+        {
+            cursor: pointer;
+            background-color: red;
+        }
+
+        .min
+        {
+            width: 40px;
+            height: 35px;
+            position: absolute;
+            right: 7%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            transition-duration: 100ms;
+        }
+
+        .min:hover
+        {
+            cursor: pointer;
+            background-color: rgb(206, 206, 206);
+        }
